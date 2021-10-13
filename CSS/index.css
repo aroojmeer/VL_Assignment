@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('/Images/bg.jpg');
+    font-family: 'Righteous', cursive;
+   
+}
+.left{
+    position: absolute;
+    left: 34px;
+    top: 0px;
+    display: inline-block;
+}
+.left img{
+    width: 90px;
+}
+.mid{
+   display: block;
+    width: 46%;
+    margin: 14px auto;
+    
+    
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 21px;
+    display: inline-block;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover , .navbar li a.active{
+    text-decoration: underline;
+    color: red;
+}
+.btn{
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 1px;
+    margin: 0px 5px;
+    background-color: red;
+    color: white;
+    height: 33px;
+    width: 120px;
+    border-radius: 22px;
+    font-size: 18px;
+    border: none;
+}
+.btn:hover{
+    background-color: black;
+    border: none;
+}
+.container{
+    background-color: red;
+    opacity: 0.3;
+    border: 2px solid red;
+    margin: 40px 80px;
+    padding: 50px 70px 0px 0px;
+    font-size: 60px;
+    width: 37%;
+    color: black;
+    
+    
+
+}
+.text{
+
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 4px;
+    
+}
